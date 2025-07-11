@@ -1,0 +1,15 @@
+.main{
+    background-color: aqua;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+}
+button{
+    margin-left: 100px;
+}
+body{
+    width: 400px;
+    height: 300px;
+
+}

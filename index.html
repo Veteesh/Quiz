@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+    <style>
+        .score{
+            display: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="question-1" id="question-1">
+            <h3>1. Who is Priminister India</h3>
+            <form>
+                <label for="question1">a.KCR</label><br>
+                <label for="question1">b.Modi</label><br>
+                <label for="question-1">c.CBN</label><br>
+                <label for="question-1">d.Mawayya</label><br>
+                <input type="radio" name="question-1" value="a" id="q1">a
+                <input type="radio" name="question-1" value="b" id="q1">b
+                <input type="radio" name="question-1" value="c" id="q1">c
+                <input type="radio" name="question-1" value="d" id="q1">d<br><br>
+                <button onclick="f1()">submit</button>
+            </form>
+        </div>
+        <div class="question-2" id="question-2" style="display: none;">
+            <h3>2. What is the Full - From of CSS</h3>
+            <form>
+                <label for="question-2">a.Cascading sheet style</label><br>
+                <label for="question-2">b.Cascading Style Sheets</label><br>
+                <label for="question-2">c.Common String Sample</label><br>
+                <label for="question-2">d.Common String Sides</label><br>
+                <input type="radio" name="question-2" value="a" id="q2">a
+                <input type="radio" name="question-2" value="b" id="q2">b
+                <input type="radio" name="question-2" value="c" id="q2">c
+                <input type="radio" name="question-2" value="d" id="q2">d<br><br>
+                <button onclick="f2()">submit</button>
+            </form>
+        </div>
+        <div class="question-3" id="question-3" style="display: none;">
+            <h3>3. The First Pan India Movie</h3>
+            <form>
+                <label for="question-3">a.Bhahubhali</label><br>
+                <label for="question-3">b.Aravinda Sametha</label><br>
+                <label for="question-3">c.Student No.1</label><br>
+                <label for="question-3">d.Magadhira</label><br>
+                <input type="radio" name="question-3" value="a" id="q3">a
+                <input type="radio" name="question-3" value="b" id="q3">b
+                <input type="radio" name="question-3" value="c" id="q3">c
+                <input type="radio" name="question-3" value="d" id="q3">d <br><br>
+                <button onclick="f3()">submit</button>
+            </form>
+        </div>
+        <div class="question-4" id="question-4" style="display: none;">
+            <h3>4. What is the Full - From of WHO</h3>
+            <form>
+                <label for="question-4">a.World Heal Optimisation</label><br>
+                <label for="question-4">b.World Hiring Organisation</label><br>
+                <label for="question-4">c.World Health Organization</label><br>
+                <label for="question-4">d.World Hike Optimisation</label><br>
+                <input type="radio" name="question-4" value="a" id="q4">a
+                <input type="radio" name="question-4" value="b" id="q4">b
+                <input type="radio" name="question-4" value="c" id="q4">c
+                <input type="radio" name="question-4" value="d" id="q4">d <br><br>
+                <button onclick="f4()">submit</button>
+            </form>
+        </div>
+        <div class="question-5" id="question-5" style="display: none;">
+            <h3>5. In Which Year Telangana was Formed</h3>
+            <form>
+                <label for="question-5">a.1996</label><br>
+                <label for="question-5">b.2005</label><br>
+                <label for="question-5">c.2011</label><br>
+                <label for="question-5">d.2014</label><br>
+                <input type="radio" name="question-5" value="a" id="q5">a
+                <input type="radio" name="question-5" value="b" id="q5">b
+                <input type="radio" name="question-5" value="c" id="q5">c
+                <input type="radio" name="question-5" value="d" id="q5">d <br><br>
+                <button onclick="f5()">submit</button>
+            </form>
+        </div>
+        <div class="question-6" id="question-6" style="display: none;">
+            <h3>6. Which is Your National Animal</h3>
+            <form>
+                <label for="question-6">a.Loin</label><br>
+                <label for="question-6">b.Tiger</label><br>
+                <label for="question-6">c.Elephant</label><br>
+                <label for="question-6">d.Fox</label><br>
+                <input type="radio" name="question-6" value="a" id="q6">a
+                <input type="radio" name="question-6" value="b" id="q6">b
+                <input type="radio" name="question-6" value="c" id="q6">c
+                <input type="radio" name="question-6" value="d" id="q6">d <br><br>
+                <button onclick="f6()">submit</button>
+            </form>
+        </div>
+        <div class="question-7" id="question-7" style="display: none;">
+            <h3>7. What is the Formula for Area of Circle.</h3>
+            <form>
+                <label for="question-7">a.pi*r*r</label><br>
+                <label for="question-7">b.2*pi*r*r*</label><br>
+                <label for="question-7">c.(1/4)*pi*r*r</label><br>
+                <label for="question-7">d.sqrt(2)*pi*r*r</label><br>
+                <input type="radio" name="question-7" value="a" id="q7">a
+                <input type="radio" name="question-7" value="b" id="q7">b
+                <input type="radio" name="question-7" value="c" id="q7">c
+                <input type="radio" name="question-7" value="d" id="q7">d <br><br>
+                <button onclick="f7()">submit</button>
+            </form>
+        </div>
+        <div class="question-8" id="question-8" style="display: none;">
+            <h3>8.What is the Full - From of SQL .</h3>
+            <form>
+                <label for="question-8">a.Syntax Question League</label><br>
+                <label for="question-8">b.Structure Query Login</label><br>
+                <label for="question-8">c.Structure Query Language</label><br>
+                <label for="question-8">d.Struture Quoted Language</label><br>
+                <input type="radio" name="question-8" value="a" id="q8">a
+                <input type="radio" name="question-8" value="b" id="q8">b
+                <input type="radio" name="question-8" value="c" id="q8">c
+                <input type="radio" name="question-8" value="d" id="q8">d <br><br>
+                <button onclick="f8()">submit</button>
+            </form>
+        </div>
+        <div class="question-9" id="question-9" style="display: none;">
+            <h3>9.What is The Full Form Of JS .</h3>
+            <form>
+                <label for="question-9">a.Java Script</label><br>
+                <label for="question-9">b.Java Subject</label><br>
+                <label for="question-9">c.Java Syllabus</label><br>
+                <label for="question-9">d.James Sameer</label><br>
+                <input type="radio" name="question-9" value="a" id="q9">a
+                <input type="radio" name="question-9" value="b" id="q9">b
+                <input type="radio" name="question-9" value="c" id="q9">c
+                <input type="radio" name="question-9" value="d" id="q9">d <br><br>
+                <button onclick="f9()">submit</button>
+            </form>
+        </div>
+        <div class="question-10" id="question-10" style="display: none;">
+            <h3>10.What is The Full Form Of HTML .</h3>
+            <form>
+                <label for="question-10">a.High Temper Made Language</label><br>
+                <label for="question-10">b.High Text Model League</label><br>
+                <label for="question-10">c.Hyper Text MarkUp Language</label><br>
+                <label for="question-10">d.Hyper Told Made Language</label><br>
+                <input type="radio" name="question-10" value="a" id="q10">a
+                <input type="radio" name="question-10" value="b" id="q10">b
+                <input type="radio" name="question-10" value="c" id="q10">c
+                <input type="radio" name="question-10" value="d" id="q10">d <br><br>
+                <button onclick="f10()">submit</button>
+            </form>
+        </div>
+        <div class="question-11" id="question-11" style="display: none;">
+            <h3>11.What is The Full Form Of OOP.</h3>
+            <form>
+                <label for="question-11">a.Object Optimized Program</label><br>
+                <label for="question-11">b.Optimized Object Program</label><br>
+                <label for="question-11">c.Optimized Oracel Programming</label><br>
+                <label for="question-11">d.Object Oriented Programming</label><br>
+                <input type="radio" name="question-11" value="a" id="q11">a
+                <input type="radio" name="question-11" value="b" id="q11">b
+                <input type="radio" name="question-11" value="c" id="q11">c
+                <input type="radio" name="question-11" value="d" id="q11">d <br><br>
+                <button onclick="f11()">submit</button>
+            </form>
+        </div>
+        <div class="question-12" id="question-12" style="display: none;">
+            <h3>12.MRCET is Famous For.</h3>
+            <form>
+                <label for="question-12">a.Brand of Exellence In Campus Placement</label><br>
+                <label for="question-12">b.Tooper - Students</label><br>
+                <label for="question-12">c.Rod Pappers</label><br>
+                <label for="question-12">d.More Events in College</label><br>
+                <input type="radio" name="question-12" value="a" id="q12">a
+                <input type="radio" name="question-12" value="b" id="q12">b
+                <input type="radio" name="question-12" value="c" id="q12">c
+                <input type="radio" name="question-12" value="d" id="q12">d <br><br>
+                <button onclick="f12()">submit</button>
+            </form>
+        </div>
+        <div class="question-13" id="question-13" style="display: none;">
+            <h3>13.In which Palce Biryani is Famous.</h3>
+            <form>
+                <label for="question-13">a.Dehli</label><br>
+                <label for="question-13">b.Mumbai</label><br>
+                <label for="question-13">c.Hyderabad</label><br>
+                <label for="question-13">d.Chennai</label><br>
+                <input type="radio" name="question-13" value="a" id="q13">a
+                <input type="radio" name="question-13" value="b" id="q13">b
+                <input type="radio" name="question-13" value="c" id="q13">c
+                <input type="radio" name="question-13" value="d" id="q13">d <br><br>
+                <button onclick="f13()">submit</button>
+            </form>
+        </div>
+        <div class="question-14" id="question-14" style="display: none;">
+            <h3>14.Who is the Single take Actor in TFI.</h3>
+            <form>
+                <label for="question-14">a.Allu Arjun</label><br>
+                <label for="question-14">b.Prabhas</label><br>
+                <label for="question-14">c.Ram charn</label><br>
+                <label for="question-14">d.Jr NTR</label><br>
+                <input type="radio" name="question-14" value="a" id="q14">a
+                <input type="radio" name="question-14" value="b" id="q14">b
+                <input type="radio" name="question-14" value="c" id="q14">c
+                <input type="radio" name="question-14" value="d" id="q14">d <br><br>
+                <button onclick="f14()">submit</button>
+            </form>
+        </div>
+        <div class="question-15" id="question-15" style="display: none;">
+            <h3>15.Who is The CEO of MicroSoft.</h3>
+            <form>
+                <label for="question-15">a.Sundar pichai</label><br>
+                <label for="question-15">b.Stya Nadella</label><br>
+                <label for="question-15">c.Elon Musk</label><br>
+                <label for="question-15">d.Mark Zukerburg</label><br>
+                <input type="radio" name="question-15" value="a" id="q15">a
+                <input type="radio" name="question-15" value="b" id="q15">b
+                <input type="radio" name="question-15" value="c" id="q15">c
+                <input type="radio" name="question-15" value="d" id="q15">d <br><br>
+                <button onclick="f15()">submit</button>
+            </form>
+        </div>
+        <div class="score" id="result">
+            <h1>Congratulations You Have Completed 15 Questions</h1>
+        </div>
+    </div>
+</body>
+<script>
+    let finalscore=0;
+    function f1() {
+        let selected = document.querySelector('input[name="question-1"]:checked');
+        if (selected && selected.value === "b") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q1 = document.querySelector('.question-1');
+            const q2 = document.querySelector('.question-2');
+            q2.style.display = 'block';
+            mainDiv.replaceChild(q2, q1);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q1 = document.querySelector('.question-1');
+            const q2 = document.querySelector('.question-2');
+            q2.style.display = 'block';
+            mainDiv.replaceChild(q2, q1);
+        }
+    }
+    function f2(){
+        let selected = document.querySelector(`input[name="question-2"]:checked`);
+        if (selected && selected.value === "b") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q2 = document.querySelector('.question-2');
+            const q3 = document.querySelector('.question-3');
+            q3.style.display = 'block';
+            mainDiv.replaceChild(q3, q2);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q2 = document.querySelector('.question-2');
+            const q3 = document.querySelector('.question-3');
+            q3.style.display = 'block';
+            mainDiv.replaceChild(q3, q2);
+        }
+    }
+    function f3(){
+        let selected = document.querySelector(`input[name="question-3"]:checked`);
+        if (selected && selected.value === "a") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q4 = document.querySelector('.question-4');
+            const q3 = document.querySelector('.question-3');
+            q4.style.display = 'block';
+            mainDiv.replaceChild(q4, q3);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q4 = document.querySelector('.question-4');
+            const q3 = document.querySelector('.question-3');
+            q4.style.display = 'block';
+            mainDiv.replaceChild(q4, q3);
+        }
+        
+}
+function f4(){
+        let selected = document.querySelector(`input[name="question-4"]:checked`);
+        if (selected && selected.value === "c") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q4 = document.querySelector('.question-4');
+            const q5 = document.querySelector('.question-5');
+            q5.style.display = 'block';
+            mainDiv.replaceChild(q5, q4);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q4 = document.querySelector('.question-4');
+            const q5 = document.querySelector('.question-5');
+            q5.style.display = 'block';
+            mainDiv.replaceChild(q5, q4);
+        }
+        
+}
+function f5(){
+        let selected = document.querySelector(`input[name="question-5"]:checked`);
+        if (selected && selected.value === "d") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q6 = document.querySelector('.question-6');
+            const q5 = document.querySelector('.question-5');
+            q6.style.display = 'block';
+            mainDiv.replaceChild(q6, q5);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q6 = document.querySelector('.question-6');
+            const q5 = document.querySelector('.question-5');
+            q6.style.display = 'block';
+            mainDiv.replaceChild(q6, q5);
+        }
+        
+}
+function f6(){
+        let selected = document.querySelector(`input[name="question-6"]:checked`);
+        if (selected && selected.value === "b") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q6 = document.querySelector('.question-6');
+            const q7 = document.querySelector('.question-7');
+            q7.style.display = 'block';
+            mainDiv.replaceChild(q7, q6);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q6 = document.querySelector('.question-6');
+            const q7 = document.querySelector('.question-7');
+            q7.style.display = 'block';
+            mainDiv.replaceChild(q7, q6);
+        }
+        
+}
+function f7(){
+        let selected = document.querySelector(`input[name="question-7"]:checked`);
+        if (selected && selected.value === "a") {
+            finalscore=finalscore+1
+            const mainDiv = document.querySelector('.main');
+            const q8 = document.querySelector('.question-8');
+            const q7 = document.querySelector('.question-7');
+            q8.style.display = 'block';
+            mainDiv.replaceChild(q8, q7);
+        } else {
+            alert("Try again or select the correct option.");
+            const mainDiv = document.querySelector('.main');
+            const q8 = document.querySelector('.question-8');
+            const q7 = document.querySelector('.question-7');
+            q8.style.display = 'block';
+            mainDiv.replaceChild(q8, q7);
+        }
+        
+}
+function f8(){
+        let selected = document.querySelector(`input[name="question-8"]:checked`);
+        if (selected && selected.value === "c") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q8 = document.querySelector('.question-8');
+            const q9 = document.querySelector('.question-9');
+            q9.style.display = 'block';
+            mainDiv.replaceChild(q9, q8);
+}
+function f9(){
+        let selected = document.querySelector(`input[name="question-9"]:checked`);
+        if (selected && selected.value === "a") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q10 = document.querySelector('.question-10');
+            const q9 = document.querySelector('.question-9');
+            q10.style.display = 'block';
+            mainDiv.replaceChild(q10, q9);
+}
+function f10(){
+        let selected = document.querySelector(`input[name="question-10"]:checked`);
+        if (selected && selected.value === "c") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q10 = document.querySelector('.question-10');
+            const q11 = document.querySelector('.question-11');
+            q11.style.display = 'block';
+            mainDiv.replaceChild(q11, q10);
+}
+function f11(){
+        let selected = document.querySelector(`input[name="question-11"]:checked`);
+        if (selected && selected.value === "d") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q12 = document.querySelector('.question-12');
+            const q11 = document.querySelector('.question-11');
+            q12.style.display = 'block';
+            mainDiv.replaceChild(q12, q11);
+}
+function f12(){
+        let selected = document.querySelector(`input[name="question-12"]:checked`);
+        if (selected && selected.value === "a") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q12 = document.querySelector('.question-12');
+            const q13 = document.querySelector('.question-13');
+            q13.style.display = 'block';
+            mainDiv.replaceChild(q13, q12);
+}
+function f13(){
+        let selected = document.querySelector(`input[name="question-13"]:checked`);
+        if (selected && selected.value === "c") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q14 = document.querySelector('.question-14');
+            const q13 = document.querySelector('.question-13');
+            q14.style.display = 'block';
+            mainDiv.replaceChild(q14, q13);
+}
+function f14(){
+        let selected = document.querySelector(`input[name="question-14"]:checked`);
+        if (selected && selected.value === "d") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+            const mainDiv = document.querySelector('.main');
+            const q14 = document.querySelector('.question-14');
+            const q15 = document.querySelector('.question-15');
+            q15.style.display = 'block';
+            mainDiv.replaceChild(q15, q14);
+}
+function f15(){
+        let selected = document.querySelector(`input[name="question-15"]:checked`);
+        if (selected && selected.value === "b") {
+            finalscore=finalscore+1
+        } else {
+            alert("Try again or select the correct option."); 
+        }
+        const mainDiv = document.querySelector('.main');
+            const q = document.querySelector('.score');
+            const q15 = document.querySelector('.question-15');
+            q.style.display = 'block';
+            mainDiv.replaceChild(q, q15);
+            const final = document.createElement('h1')
+            final.innerHTML=`Score is ${finalscore}/15`
+            mainDiv.appendChild(final)
+}
+</script>
+
+</html>
